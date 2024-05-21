@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header,
+header nav li {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: none;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 8px;
+}
+
+header nav li a:hover {
+    color: #deb887;
+}
+
+header div h1 {
+    font-size: 40px;
+}
+
+body {
+    color: #fff;
+    background-color: rgb(70, 70, 70);
+}
+
+body, input, textarea, button {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+#banner img {
+    width: 100%;
+}
+
+.container {
+    padding: 16px 5%;
+}
+
+.container h2 {
+    margin-top: 16px;
+}
+
+section div img {
+    display: inline;
+    width: 12%;
+}
+
+section div img:hover {
+    transform: scale(110%);
+    border: solid 1px #2b2b2b;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 16px 5%;
+}
+
+.flexitem {
+    width: 33%;
+    min-width: 250px;
+}
+
+form input,
+form button,
+form textarea {
+    width: 96%;
+    padding: 8px;
+}
+
+section h2 {
+    margin-bottom: 4px;
+}
+
+form textarea {
+    height: 160px;
+    resize: none;
+}
+
+form button {
+    color: #2b2b2b;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #deb887;
+}
+
+input:focus, textarea:focus {
+    outline-color: #deb887;
+}
+
+footer {
+    text-align: center;
+    background-color: #2b2b2b;
+    padding: 18px 0;
+    margin-top: 18px;
+}
